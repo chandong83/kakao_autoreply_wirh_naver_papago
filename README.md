@@ -12,6 +12,7 @@
 홍콩 과기대 김성훈 교수님께서 만드신 것을 보고 node js로 공부 겸 만들어 봤습니다.
 https://github.com/hunkim/line-papago-bot
 
+현재는 한국어를 영어로면 변경이 가능합니다.
 
 코드는 동작하는 코드이지만
 네이버 API ID & Key를 할당받아야하고
