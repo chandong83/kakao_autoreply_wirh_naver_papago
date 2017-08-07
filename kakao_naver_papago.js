@@ -8,8 +8,14 @@ var express    = require('express');
 var app        = express();
 
 //네이버 KEY
-var client_id = '당신의 네이버 API ID';
-var client_secret = '당신의 네이버 API 암호키';
+/*
+터미널
+export PAPAGO_ID=asdfsadf
+export PAPAGO_SECRET=asdfsadf
+*/
+var client_id = process.env["PAPAGO_ID"];//'당신의 네이버 API ID';
+var client_secret = process.env["PAPAGO_SECRET"];//'당신의 네이버 API 암호키';
+
 
 var api_url = 'https://openapi.naver.com/v1/papago/n2mt';
 
